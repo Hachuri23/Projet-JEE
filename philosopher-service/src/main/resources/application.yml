@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: philosopher-service
+
+supervisor:
+  url: ${SUPERVISOR_URL:http://localhost:8081}
